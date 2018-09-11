@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { StyleProp, ViewStyle } from 'react-native';
 
-interface IBerImageProps {
+interface BBWebImageProps {
 
     /**
      * 样式
@@ -52,4 +52,4 @@ interface IBerImageProps {
 
 }
 
-export default class IBerImage extends Component<IBerImageProps, {}> { }
+export default class BBWebImage extends Component<BBWebImageProps, {}> { }
