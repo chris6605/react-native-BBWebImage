@@ -21,7 +21,7 @@ import SvgMap from '../../resource/SvgMap';
 import FastImage from 'react-native-fast-image';
 
 
-export default class IBerImage extends BaseComponent {
+export default class BBWebImage extends BaseComponent {
 
     static defaultProps = {
         borderRadius: 0,
@@ -67,7 +67,7 @@ export default class IBerImage extends BaseComponent {
                         this.setState({ isShowError: true, isAnimating: false })
                     }}
                     onProgress={e => {
-
+                        //todo 这个进度不准确 待定解决方案
                     }}
                 />
 
